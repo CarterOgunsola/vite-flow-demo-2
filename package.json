@@ -1,0 +1,20 @@
+{
+  "name": "vite-webflow-starter",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.js patch",
+    "build:minor": "node scripts/build.js minor",
+    "build:major": "node scripts/build.js major",
+    "preview": "vite preview",
+    "rollback": "node scripts/rollback.js",
+    "clean": "node scripts/clean.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.1",
+    "semver": "^7.5.4",
+    "vite": "^5.4.11"
+  }
+}
