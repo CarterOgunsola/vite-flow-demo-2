@@ -1,11 +1,13 @@
 import homeInit from "./home.js";
 import aboutInit from "./about.js";
 import contactInit from "./contact.js";
+import serviceInit from "./service.js";
 
 const routes = {
   home: homeInit,
   about: aboutInit,
   contact: contactInit,
+  service: serviceInit,
   "extra-page": homeInit,
 };
 
